@@ -2,7 +2,7 @@
 
 This repository contains the complete pipeline for **feature extraction and comparison from a 3D knee CT scan**, as specified in NAAMII's Task III assignment.
 
-## 📋 Overview
+## Overview
 
 **Task Goal:**  
 - Split a segmented 3D knee CT scan into Tibia, Femur, and Background regions.
@@ -10,7 +10,7 @@ This repository contains the complete pipeline for **feature extraction and comp
 - Compute cosine similarity between regions at three specified convolutional layers.
 - Output all similarity scores for each image in a single CSV.
 
-## 🏗️ Pipeline Steps
+## Pipeline Steps
 
 1. **Segmentation-Based Splitting:**  
    The input segmentation mask is separated into:
@@ -37,7 +37,7 @@ This repository contains the complete pipeline for **feature extraction and comp
    - Results are saved in a single CSV (`knee_region_cosine_similarity.csv`) with one row per image and columns for each region-pair/layer combination.
 
 
-## 🚀 How to Run
+## How to Run
 
 1. **Dependencies:**  
    - Python 3.x  
